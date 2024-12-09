@@ -128,7 +128,9 @@ Months/Days/Years: Apply filters to view the average wait time, the number of pa
 
 **Title:** Interrogating data on Pizza
 
-**SQL Code:** SQL Querries on Pizza(https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Pizza.sql)
+**SQL Code:** SQL Querries on Pizza
+
+(https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Pizza.sql)
 
 **SQL Skills Used:** 
 
