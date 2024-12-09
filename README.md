@@ -110,9 +110,9 @@ Department Referrals: The number of patients visiting a particular deopartment w
 
 Patients' Race: The distribution of emergency room visits categorized by patients' race.
 
-The distribution of emergency room visit categorized by age.
+The distribution of emergency room visit categorised by age.
 
-The distribution of Emergency room visit categrised by gender.
+The distribution of Emergency room visit categorised by gender.
 
 Additionally, the dashboard includes interactive slicers and timeline for:
 
