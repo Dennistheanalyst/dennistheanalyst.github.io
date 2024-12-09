@@ -88,3 +88,38 @@ Sales Volatility: Analyzed monthly sales fluctuations to understand market dynam
 **Dashboard Overview:** 
 ![hospitality_industry_dashboard](hospitality_industry_dashboard.JPG)
 
+
+# Project 3
+
+**Title:** [Emergency Room Visit Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospital%20Emergency%20Room%20Visit%20Data.xlsx)
+
+**Tools Used:** Microsoft Excel (Power Query for data cleaning, Coditional Formating, Pivot Tables, Slicers, use of slicers, Pivot Charts, Timeline, shapes, Shape format)
+
+**Project Description:** This project examined hospital data to identify trends and patterns related to the daily patient stay durations in the emergency room over the course of a year, as visualized in a heat map. Furthermore, it analyzed the average patient satisfaction rates, as well as the distribution of patients based on age, gender, department referral, and race.
+It gives a clear overview of key performance metrics, helping management monitor and evaluate how long patients wait in the emergency room. The dashboard offers the following functionalities:
+
+Heatmap: That shows the stay duration of patients on a given day
+
+Number of Patients Visiting the Emergency room.
+
+Average Wait Time: The average amount of time a patient spends in the emergency room.
+
+Average Satisfaction Score: This shows how satisfied patients feel after visiting the emergency room.
+
+Department Referrals: The number of patients visiting a particular deopartment within a time period.
+
+Patients' Race: The distribution of emergency room visits categorized by patients' race.
+
+The distribution of emergency room visit categorized by age.
+
+The distribution of Emergency room visit categrised by gender.
+
+Additionally, the dashboard includes interactive slicers and timeline for:
+
+Months/Days/Years: Apply filters to view the average wait time, the number of patients visiting the emergency room, and the average satisfaction score for a specific month, day, or year.
+
+**Key findings:** Seasonal Patterns: Identifies the days when patients typically have longer stays, helping the hospital make provision for quality service by preparing for these peak periods.
+
+**Dashboard Overview:** 
+![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
+
