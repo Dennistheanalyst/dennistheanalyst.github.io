@@ -123,3 +123,24 @@ Months/Days/Years: Apply filters to view the average wait time, the number of pa
 **Dashboard Overview:** 
 ![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
 
+
+# Project 4
+
+**Title:** Interrogating data on Pizza
+
+**SQL Code:** SQL Querries on Pizza(https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Pizza.sql)
+
+**SQL Skills Used:** 
+
+Data Retrieval (SELECT): Queried and extracted specific information from the database.
+
+Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
+
+Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
+
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+
+**Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes functions like COUNT and SUM to determine the total number of pizzas sold and ordered within a specific period. The SUM function is also applied to calculate the total revenue generated from pizza sales. Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter the data for specific products or product ranges as requested by the company.
+
+**Technology used:** SQL server
+
