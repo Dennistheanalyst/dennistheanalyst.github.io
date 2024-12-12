@@ -50,7 +50,7 @@ This dashboard serves as a crucial tool for the cookies company’s management t
 
 # Project 2
 
-**Title:** [Hospitality Industry Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospital%20Emergency%20Room%20Visit%20Data.xlsx)
+**Title:** [Hospitality Industry Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospitality%20industry%20project.pbix)
 
 **Tools Used:** Power BI, Power Query, DAX functions, Charts, Shapes, Slicers.
 
