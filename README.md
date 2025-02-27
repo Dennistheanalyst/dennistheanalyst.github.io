@@ -160,6 +160,55 @@ Months/Days/Years: Apply filters to view the average wait time, the number of pa
 ![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
 
 
+# Project 6
+**Title:** Optimizing Retail Sales Insights: A SQL Data Analysis Project
+
+**SQL Code:** [SQL Queries on Reatail Sales Data](retail_sales_sql)
+
+This project showcases essential SQL skills and techniques commonly used by data analysts to explore, clean, and analyze retail sales data. It involves creating a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to answer key business questions. Designed for beginners in data analysis, this project helps build a strong foundation in SQL while providing hands-on experience with real-world data.
+
+**Project Objectives**
+            Retail Sales Database Setup – Create and populate a structured retail sales database using the provided dataset.
+            Data Cleaning – Identify and handle missing or null values to ensure data accuracy and reliability.
+            Exploratory Data Analysis (EDA) – Conduct basic analysis to understand key patterns, trends, and relationships within the dataset.
+            Business Insights & Analysis – Utilize SQL queries to address specific business questions, extract meaningful insights, and support data-driven decision-making.
+
+**Project Structure**
+
+Data Exploration & Cleaning
+      Record Count: Determine the total number of records in the dataset.
+      Customer Count: Find out how many unique customers are in the dataset.
+      Category Count: Identify all unique product categories in the dataset.
+      Null Value Check: Check for any null values in the dataset and delete records with missing data.
+
+Data Analysis and Findings
+      Customer Demographics – The dataset features customers from diverse age groups, with purchases spanning various categories like Clothing and Beauty.
+      High-Value Transactions – A significant number of transactions exceed $1,000, highlighting premium purchases.
+      Sales Trends – Monthly sales analysis reveals fluctuations in demand, helping pinpoint peak seasons.
+      Customer Insights – Identifies top-spending customers and the most popular product categories, providing valuable business intelligence.
+
+Reports
+      Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
+      Trend Analysis: Insights into sales trends across different months and shifts.
+      Customer Insights: Reports on top customers and unique customer counts per category.
+
+**SQL Code:** [SQL Queries on Reatail Sales Data](retail_sales_sql)
+
+**SQL Skills Used:** 
+Data Retrieval (SELECT): Queried and extracted specific information from the database.
+
+Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
+
+Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
+
+Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+
+**Conclusion:**
+This project offers a thorough introduction to SQL for aspiring data analysts, covering key areas such as database setup, data cleaning, exploratory data analysis (EDA), and business-focused SQL queries. The insights gained from this project provide valuable information on sales trends, customer behavior, and product performance, which can support informed business decision-making.
+
+**Technology Used:** SQL server
+
+
 # Project 5
 
 **Title:** Interrogating data on Pizza
