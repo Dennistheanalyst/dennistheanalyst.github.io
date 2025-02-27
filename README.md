@@ -160,7 +160,7 @@ Months/Days/Years: Apply filters to view the average wait time, the number of pa
 ![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
 
 
-# Project 6
+# Project 5
 **Title:** Optimizing Retail Sales Insights: A SQL Data Analysis Project
 
 **SQL Code:** [SQL Queries on Reatail Sales Data](retail_sales_sql)
@@ -209,7 +209,7 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 **Technology Used:** SQL server
 
 
-# Project 5
+# Project 6
 
 **Title:** Interrogating data on Pizza
 
