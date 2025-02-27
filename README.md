@@ -163,7 +163,7 @@ Months/Days/Years: Apply filters to view the average wait time, the number of pa
 # Project 5
 **Title:** Optimizing Retail Sales Insights: A SQL Data Analysis Project
 
-**SQL Code:** [SQL Queries on Reatail Sales Data](retail_sales_sql)
+**SQL Code:** [SQL Queries on Reatail Sales Data](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/retail_sales_sql)
 
 This project showcases essential SQL skills and techniques commonly used by data analysts to explore, clean, and analyze retail sales data. It involves creating a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to answer key business questions. Designed for beginners in data analysis, this project helps build a strong foundation in SQL while providing hands-on experience with real-world data.
 
