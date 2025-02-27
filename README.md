@@ -47,8 +47,43 @@ This dashboard serves as a crucial tool for the cookies company’s management t
 **Dashboard Overview:** 
 ![Sales_Dashboard](Sales_Dashboard.JPG)
 
-
 # Project 2
+**Title:** [Coffee Order Dashboard](coffeeOrdersData.xlsx)
+
+**Tools Used:** Microsoft Excel (Excel Functions - if statement,xlookup,vlookup,index-match,remove duplicates, Pivot Tables, Slicers, use of slicers, Pivot Charts, Timeline, shapes, Shape format)
+
+**Project Description:** This project provides an in-depth analysis of coffee sales data from a coffee company, offering valuable insights into sales performance, customer behavior, and regional market trends. The analysis focuses on identifying patterns in sales fluctuations over a given year, highlighting periods of growth and decline. Additionally, it examines regional sales distribution to determine which areas contribute the most to overall revenue.
+A key aspect of this analysis is the identification of the top 5 customers who make the highest purchases, allowing for a better understanding of customer preferences and spending habits. This insight enables the company to optimize its marketing strategies and improve customer engagement.
+Furthermore, the project explores the impact of loyalty cards in tracking customer behavior across different regions within a specific timeframe. The use of loyalty cards provides several business advantages, including:
+      - Enhancing customer retention through personalized rewards and incentives.
+      - Boosting sales and revenue by encouraging repeat purchases.
+      - Improving customer experience and satisfaction through tailored promotions and exclusive offers.
+
+**Dashboard Functionalities:**
+Sales by Region – Analyzes total sales across different regions, identifying the top-performing locations and suggesting strategies to enhance sales in underperforming areas.
+
+Top 5 Performing Customers – Highlights the highest-spending customers in various regions and by coffee type, helping businesses understand their most valuable clients and tailor promotional efforts accordingly.
+
+Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
+
+Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
+
+This project serves as a data-driven decision-making tool, helping the coffee company refine its sales strategies, optimize marketing efforts, and improve overall business performance.
+
+
+**Key findings:**
+
+Seasonal Trends - Identified sales and profit trends that align with seasonal events and market cycles, providing valuable insights for strategic business planning. These findings help optimize inventory management, promotional campaigns, and resource allocation to maximize profitability during peak seasons and mitigate downturns during slower periods.
+
+Top performing Countries - The United States remains the top-performing region, followed by Ireland and the United Kingdom over a four-year period. To sustain sales in top regions, strategies like personalized promotions, loyalty programs, and supply chain optimization should be implemented. For underperforming regions (e.g., the UK), targeted marketing, customer engagement initiatives, and expanded distribution channels are key to driving sales growth.
+
+Sales Volatility - Conducted an in-depth analysis of monthly sales fluctuations to identify seasonal trends, demand patterns, and potential market shifts. These insights enable data-driven decision-making, allowing the business to optimize inventory management, refine marketing strategies, and adjust sales tactics to align with changing consumer behaviors and market conditions. 
+
+**Dashboard Overview:** 
+![CoffeeSales Dashboard](coffeeOrdersDashboard.JPG)
+
+
+# Project 3
 
 **Title:** [Hospitality Industry Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospitality%20industry%20project.pbix)
 
@@ -89,7 +124,7 @@ Sales Volatility: Analyzed monthly sales fluctuations to understand market dynam
 ![hospitality_industry_dashboard](hospitality_industry_dashboard.JPG)
 
 
-# Project 3
+# Project 4
 
 **Title:** [Emergency Room Visit Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospital%20Emergency%20Room%20Visit%20Data.xlsx)
 
@@ -124,7 +159,7 @@ Months/Days/Years: Apply filters to view the average wait time, the number of pa
 ![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
 
 
-# Project 4
+# Project 5
 
 **Title:** Interrogating data on Pizza
 
