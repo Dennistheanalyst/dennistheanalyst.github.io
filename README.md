@@ -80,6 +80,7 @@ Top performing Countries - The United States remains the top-performing region, 
 Sales Volatility - Conducted an in-depth analysis of monthly sales fluctuations to identify seasonal trends, demand patterns, and potential market shifts. These insights enable data-driven decision-making, allowing the business to optimize inventory management, refine marketing strategies, and adjust sales tactics to align with changing consumer behaviors and market conditions. 
 
 **Dashboard Overview:** 
+
 ![CoffeeSales Dashboard](coffeeOrdersDashboard.JPG)
 
 
