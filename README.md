@@ -192,7 +192,6 @@ Reports
       Trend Analysis: Insights into sales trends across different months and shifts.
       Customer Insights: Reports on top customers and unique customer counts per category.
 
-**SQL Code:** [SQL Queries on Reatail Sales Data](retail_sales_sql)
 
 **SQL Skills Used:** 
 Data Retrieval (SELECT): Queried and extracted specific information from the database.
