@@ -17,7 +17,7 @@ SELECT [transactions_id]
 GO
 ;
 
---DATA CLEANNING 
+**--DATA CLEANNING**
 
 SELECT *
 FROM [dbo].[Retail_sales]
@@ -72,7 +72,7 @@ FROM [dbo].[Retail_sales];
 SELECT COUNT(*)
 FROM [dbo].[Retail_sales];
 
---DATA EXPLORATION
+**--DATA EXPLORATION**
 
 --How many sales we have?
 SELECT COUNT(*) AS Total_sales
@@ -164,7 +164,7 @@ COUNT([transactions_id]) AS total_orders
 FROM hourly_sales
 GROUP BY Shift
 
---End of Project
+**--End of Project**
 
 
 	
