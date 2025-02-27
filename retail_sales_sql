@@ -1,0 +1,175 @@
+USE [retail_db]
+GO
+
+SELECT [transactions_id]
+      ,[sale_date]
+      ,[sale_time]
+      ,[customer_id]
+      ,[gender]
+      ,[age]
+      ,[category]
+      ,[quantiy]
+      ,[price_per_unit]
+      ,[cogs]
+      ,[total_sale]
+  FROM [dbo].['SQL - Retail Sales Analysis_utf$']
+
+GO
+;
+
+--DATA CLEANNING 
+
+SELECT *
+FROM [dbo].[Retail_sales]
+WHERE [transactions_id] IS NULL;
+
+SELECT *
+FROM [dbo].[Retail_sales]
+WHERE [transactions_id] IS NULL
+OR
+[sale_date] IS NULL
+OR
+[sale_time] IS NULL
+OR
+[customer_id] IS NULL
+OR
+[gender] IS NULL
+OR
+[category] IS NULL
+OR
+[quantiy] IS NULL
+OR
+[price_per_unit] IS NULL
+OR
+[cogs] IS NULL
+OR
+[total_sale] IS NULL;
+
+DELETE FROM [dbo].[Retail_sales]
+WHERE [transactions_id] IS NULL
+OR
+[sale_date] IS NULL
+OR
+[sale_time] IS NULL
+OR
+[customer_id] IS NULL
+OR
+[gender] IS NULL
+OR
+[category] IS NULL
+OR
+[quantiy] IS NULL
+OR
+[price_per_unit] IS NULL
+OR
+[cogs] IS NULL
+OR
+[total_sale] IS NULL;
+
+SELECT *
+FROM [dbo].[Retail_sales];
+
+SELECT COUNT(*)
+FROM [dbo].[Retail_sales];
+
+--DATA EXPLORATION
+
+--How many sales we have?
+SELECT COUNT(*) AS Total_sales
+FROM [dbo].[Retail_sales];
+
+--How many unique customers we have
+SELECT COUNT(distinct [customer_id]) AS Total_customers
+FROM [dbo].[Retail_sales];
+
+--Data Analysis and Business Key Problems and Answers
+--write SQL querry to retreive all columns for sales made on '2022-11-05'
+SELECT *
+FROM [dbo].[Retail_sales]
+WHERE  [sale_date] = '2022-11-05';
+
+--write a SQL querry  to retreive all transactions where the category is 'clothing' and quantity sold is more than 10 in the month of Nov-2022
+SELECT *
+FROM [dbo].[Retail_sales]
+WHERE [category] = 'Clothing'
+AND 
+[quantiy] >= 4
+AND
+YEAR([sale_date]) = '2022'
+AND 
+MONTH([sale_date]) = '11';
+
+--write a SQL querry to calculate the total sales for each category
+SELECT [category], SUM([total_sale])
+FROM [dbo].[Retail_sales]
+GROUP BY [category]
+
+--Write a SQL querry to find the average age of customers who purchased items from the 'Beauty' category
+SELECT ROUND(AVG([age]),2) AS Avg_age
+FROM [dbo].[Retail_sales]
+WHERE [category] = 'Beauty';
+
+--write a SQL querry to find all transactions where the total_sale is greater than 1000.
+SELECT *
+FROM [dbo].[Retail_sales]
+WHERE [total_sale]>1000;
+
+--write a SQL querry to find the number of transactions (transactions_id) made by each gender in each category
+SELECT [gender],[category], COUNT([transactions_id]) AS [transactions_id]
+FROM [dbo].[Retail_sales]
+GROUP BY [gender],[category]
+
+--write a SQL querry to calculate the average sale for each month. Find the best selling month in each year
+WITH monthlysales AS 
+(
+SELECT 
+		YEAR([sale_date]) AS Year,
+		MONTH([sale_date]) AS Month, 
+		AVG([total_sale]) AS avg_sales,
+		SUM([total_sale]) AS total_sales,
+		RANK() OVER(PARTITION BY YEAR([sale_date]) ORDER BY AVG([total_sale]) DESC) AS Rank
+		FROM [dbo].[Retail_sales]
+		GROUP BY YEAR([sale_date]),MONTH([sale_date])
+	)
+
+SELECT  Year,
+Month,
+avg_sales
+FROM monthlysales
+WHERE Rank = 1;
+
+--write a query to find the top 5 customers based on the highest total sales
+	SELECT TOP 5 [customer_id], SUM([total_sale]) AS Total_sales
+	FROM [dbo].[Retail_sales]
+	GROUP BY [customer_id]
+	ORDER BY Total_sales DESC;
+
+--write a SQL query to find the number of unique customers who purchased items for each category
+SELECT  COUNT(DISTINCT [customer_id]) AS Customers, [category]
+FROM [dbo].[Retail_sales]
+GROUP BY [category];
+
+--write a SQL query to create each shift and number of orders (Example morning <= 12, afternoon between 12 & 17, Evening > 17)
+WITH hourly_sales AS (
+SELECT *,
+CASE 
+	 WHEN DATEPART(HOUR, [sale_time]) <= 12 THEN 'Morning'
+	 WHEN DATEPART(HOUR, [sale_time]) BETWEEN 12 AND 17 THEN 'AFTERNOON'
+	 ELSE 'Evening' END AS Shift
+FROM [dbo].[Retail_sales]
+)
+SELECT 
+Shift,
+COUNT([transactions_id]) AS total_orders
+FROM hourly_sales
+GROUP BY Shift
+
+--End of Project
+
+
+	
+
+
+
+
+
