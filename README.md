@@ -645,14 +645,14 @@ GROUP BY Films;
 
 ### 3. Findings
 
-- **Content Distribution: The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
-- **Common Ratings: Insights into the most common ratings provide an understanding of the content's target audience.
-- **Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
-- **Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+- **Content Distribution: The dataset features a wide selection of movies and TV shows spanning different genres and ratings.
+- **Common Ratings: Analyzing the most common ratings offers valuable insights into the target audience for Netflix's content.
+- **Geographical Insights: The leading countries and India's average content releases provide insights into regional content distribution.
+- **Content Categorization: Organizing content by specific keywords provides insights into the types of content available on Netflix.
 
 ## Conclusion
 
-This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+This analysis offers valuable insights into Netflix's content, helping to guide strategic decisions and content planning.
 
 
 **SQL Skills Used:** 
