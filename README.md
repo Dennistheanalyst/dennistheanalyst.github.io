@@ -131,6 +131,20 @@ Sales Volatility: Analyzed monthly sales fluctuations to understand market dynam
 
 **Title:** [Emergency Room Visit Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospital%20Emergency%20Room%20Visit%20Data.xlsx)
 
+**Project Description:** This project examined hospital data to identify trends and patterns related to the daily patient stay durations in the emergency room over the course of a year, as visualized in a heat map. Furthermore, it analyzed the average patient satisfaction rates, as well as the distribution of patients based on age, gender, department referral, and race.
+It gives a clear overview of key performance metrics, helping management monitor and evaluate how long patients wait in the emergency room. The dashboard offers the following functionalities:
+
+- **Heatmap: That shows the stay duration of patients on a given day
+- **Number of Patients Visiting the Emergency room.
+- **Average Wait Time: The average amount of time a patient spends in the emergency room.
+- **Average Satisfaction Score: This shows how satisfied patients feel after visiting the emergency room.
+- **Department Referrals: The number of patients visiting a particular deopartment within a time period.
+- **Patients' Race: The distribution of emergency room visits categorized by patients' race.
+- **The distribution of emergency room visit categorised by age.
+- **The distribution of Emergency room visit categorised by gender.
+- **Additionally, the dashboard includes interactive slicers and timeline for:
+- **Months/Days/Years: Apply filters to view the average wait time, the number of patients visiting the emergency room, and the average satisfaction score for a specific month, day, or year.
+
 **Tools Used:** Microsoft Excel (Power Query for data cleaning, Coditional Formating, Pivot Tables, Slicers, Pivot Charts, Timeline, shapes, Shape format)
 
 ## Project Objectives
@@ -149,12 +163,12 @@ Sales Volatility: Analyzed monthly sales fluctuations to understand market dynam
 - **Convert Data into Tables for Easy Analysis
 
 ## Data Analysis
-Utilization of pivot tables for data analysis and Identify KPIs 
+- **Utilization of pivot tables for data analysis and Identify KPIs 
 
 
 ### 3. Findings
-- **Average Satisfaction score -
-- **Average wait time
+- **Average Satisfaction score - The analysis reveals an average satisfaction score of 5.45/10, indicating that patient satisfaction with emergency room wait times is slightly above average. This suggests that, overall, patients are reasonably satisfied with their waiting experience.
+- **Average wait time - The analysis shows that, on average, patients wait approximately 35.03 hours in the emergency room before receiving treatment.
 - **Patients wait Time - identifies the number of hours patients wait in the emergency room
 - **Patients Demographics - Identify the number of customers based on gender, race annad agae visiting the emergency room
 
@@ -167,32 +181,6 @@ The heatmap visually represents wait times using deep blue for prolonged delays 
 
 ## Conclusion
 This project provides a comprehensive guide to advanced Excel techniques for data analysts in the healthcare industry. It covers data cleaning in Excel, exploratory data analysis using pivot tables, and presenting findings through interactive dashboards. The goal is to help healthcare facilities enhance patient satisfaction and ensure equitable treatment across diverse patient demographics.
-
-
-**Project Description:** This project examined hospital data to identify trends and patterns related to the daily patient stay durations in the emergency room over the course of a year, as visualized in a heat map. Furthermore, it analyzed the average patient satisfaction rates, as well as the distribution of patients based on age, gender, department referral, and race.
-It gives a clear overview of key performance metrics, helping management monitor and evaluate how long patients wait in the emergency room. The dashboard offers the following functionalities:
-
-Heatmap: That shows the stay duration of patients on a given day
-
-Number of Patients Visiting the Emergency room.
-
-Average Wait Time: The average amount of time a patient spends in the emergency room.
-
-Average Satisfaction Score: This shows how satisfied patients feel after visiting the emergency room.
-
-Department Referrals: The number of patients visiting a particular deopartment within a time period.
-
-Patients' Race: The distribution of emergency room visits categorized by patients' race.
-
-The distribution of emergency room visit categorised by age.
-
-The distribution of Emergency room visit categorised by gender.
-
-Additionally, the dashboard includes interactive slicers and timeline for:
-
-Months/Days/Years: Apply filters to view the average wait time, the number of patients visiting the emergency room, and the average satisfaction score for a specific month, day, or year.
-
-**Key findings:** Seasonal Patterns: Identifies the days when patients typically have longer stays, helping the hospital make provision for quality service by preparing for these peak periods.
 
 **Dashboard Overview:** 
 ![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
