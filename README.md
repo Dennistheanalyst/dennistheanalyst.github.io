@@ -2,7 +2,7 @@
 
 # Project 1
 
-**Title:** [Sales Data Of Techsort Company Limited](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/sales%20project.xlsx)
+**Title:** [Sales Data Of Techsort Company Limited](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/retail_sales_data%20Excel.xlsx)
 
 **Tools Used:** Microsoft Excel (Power Query for data cleaning, Coditional Formating, Pivot Tables, Slicers, use of slicers, Pivot Charts, Timeline, shapes, Shape format)
 
@@ -45,7 +45,7 @@ Sales Volatility: Analyzed monthly sales fluctuations to understand market dynam
 This dashboard serves as a crucial tool for the cookies company’s management team, providing clear, actionable insights that drive informed decision-making and strategic planning.
 
 **Dashboard Overview:** 
-![Sales_Dashboard](Sales_Dashboard.JPG)
+![Sales_Dashboard](Retail_Sales_Dashboard.JPG)
 
 # Project 2
 
