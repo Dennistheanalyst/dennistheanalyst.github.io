@@ -127,9 +127,41 @@ Sales Volatility: Analyzed monthly sales fluctuations to understand market dynam
 
 # Project 4
 
+## Project Overview
+
 **Title:** [Emergency Room Visit Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospital%20Emergency%20Room%20Visit%20Data.xlsx)
 
 **Tools Used:** Microsoft Excel (Power Query for data cleaning, Coditional Formating, Pivot Tables, Slicers, Pivot Charts, Timeline, shapes, Shape format)
+
+## Project Objectives
+1. **Data Cleaning - Identify and handle missing or null values to ensure data accuracy and reliability.
+2. **Exploratory Data Analysis - Utilization of pivot tables for exploratory data analysis
+3. **Insights and analysis - Leveraging Excel Dashboard Design for Data Analysis  and to provide key patterns, trends, and relationships within the dataset
+
+## Project Structure:
+
+### Data Cleaning
+
+- **Remove blanks and Null values**: Identify Null values in data and make sure that there values are cleared.
+- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
+- **Remove duplicates**: Remove duplicates value to avoid inflation of figure and t maintain data accuracy.
+- **Standardize Data Formatting**: Remove extra spaces using the TRIM function
+- **Convert Data into Tables for Easy Analysis
+
+## Data Analysis
+Utilization of pivot tables for data analysis and Identify KPIs 
+
+
+### 3. Findings
+
+
+## Reports
+
+
+
+## Conclusion
+
+
 
 **Project Description:** This project examined hospital data to identify trends and patterns related to the daily patient stay durations in the emergency room over the course of a year, as visualized in a heat map. Furthermore, it analyzed the average patient satisfaction rates, as well as the distribution of patients based on age, gender, department referral, and race.
 It gives a clear overview of key performance metrics, helping management monitor and evaluate how long patients wait in the emergency room. The dashboard offers the following functionalities:
