@@ -48,6 +48,9 @@ This dashboard serves as a crucial tool for the cookies company’s management t
 ![Sales_Dashboard](Sales_Dashboard.JPG)
 
 # Project 2
+
+## Project Overview
+
 **Title:** [Coffee Order Dashboard](coffeeOrdersData.xlsx)
 
 **Tools Used:** Microsoft Excel (Excel Functions - if statement,xlookup,vlookup,index-match,remove duplicates, Pivot Tables, Slicers, use of slicers, Pivot Charts, Timeline, shapes, Shape format)
@@ -55,29 +58,47 @@ This dashboard serves as a crucial tool for the cookies company’s management t
 **Project Description:** This project provides an in-depth analysis of coffee sales data from a coffee company, offering valuable insights into sales performance, customer behavior, and regional market trends. The analysis focuses on identifying patterns in sales fluctuations over a given year, highlighting periods of growth and decline. Additionally, it examines regional sales distribution to determine which areas contribute the most to overall revenue.
 A key aspect of this analysis is the identification of the top 5 customers who make the highest purchases, allowing for a better understanding of customer preferences and spending habits. This insight enables the company to optimize its marketing strategies and improve customer engagement.
 Furthermore, the project explores the impact of loyalty cards in tracking customer behavior across different regions within a specific timeframe. The use of loyalty cards provides several business advantages, including:
-      - Enhancing customer retention through personalized rewards and incentives.
-      - Boosting sales and revenue by encouraging repeat purchases.
-      - Improving customer experience and satisfaction through tailored promotions and exclusive offers.
+      - **Enhancing customer retention through personalized rewards and incentives.
+      - **Boosting sales and revenue by encouraging repeat purchases.
+      - **Improving customer experience and satisfaction through tailored promotions and exclusive offers.
 
 **Dashboard Functionalities:**
-Sales by Region – Analyzes total sales across different regions, identifying the top-performing locations and suggesting strategies to enhance sales in underperforming areas.
+- **Sales by Region – Analyzes total sales across different regions, identifying the top-performing locations and suggesting strategies to enhance sales in underperforming areas.
+- **Top 5 Performing Customers – Highlights the highest-spending customers in various regions and by coffee type, helping businesses understand their most valuable clients and tailor promotional efforts accordingly.
+- **Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
+- **Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
+- **This project serves as a data-driven decision-making tool, helping the coffee company refine its sales strategies, optimize marketing efforts, and improve overall business performance.
 
-Top 5 Performing Customers – Highlights the highest-spending customers in various regions and by coffee type, helping businesses understand their most valuable clients and tailor promotional efforts accordingly.
+## Project Objectives
+1. **Data Cleaning - Identify and handle missing or null values to ensure data accuracy and reliability.
+2. **Exploratory Data Analysis - Utilization of pivot tables for exploratory data analysis
+3. **Insights and analysis - Leveraging Excel Dashboard Design for Data Analysis  and to provide key patterns, trends, and relationships within the dataset
 
-Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
+## Project Structure:
 
-Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
+### Data Cleaning
 
-This project serves as a data-driven decision-making tool, helping the coffee company refine its sales strategies, optimize marketing efforts, and improve overall business performance.
+- **Remove blanks and Null values**: Identify Null values in data and make sure that there values are cleared.
+- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
+- **Remove duplicates**: Remove duplicates value to avoid inflation of figure and t maintain data accuracy.
+- **Standardize Data Formatting**: Remove extra spaces using the TRIM function to ensure consistency, Retrieve data from related sources using functions like XLOOKUP and INDEX MATCH for efficient data mapping, Refine data categorization with the IF statement to standardize values within a specific column.
+- **Convert Data into Tables for Easy Analysis
+
+## Data Analysis
+- **Utilization of pivot tables for data analysis and Identify KPIs 
 
 
-**Key findings:**
+### 3. Findings
+- **Seasonal Trends - Identified sales and profit trends that align with seasonal events and market cycles, providing valuable insights for strategic business planning. These findings help optimize inventory management, promotional campaigns, and resource allocation to maximize profitability during peak seasons and mitigate downturns during slower periods.
+- **Top performing Countries - The United States remains the top-performing region, followed by Ireland and the United Kingdom over a four-year period. To sustain sales in top regions, strategies like personalized promotions, loyalty programs, and supply chain optimization should be implemented. For underperforming regions (e.g., the UK), targeted marketing, customer engagement initiatives, and expanded distribution channels are key to driving sales growth.
+- **Sales Volatility - Conducted an in-depth analysis of monthly sales fluctuations to identify seasonal trends, demand patterns, and potential market shifts. These insights enable data-driven decision-making, allowing the business to optimize inventory management, refine marketing strategies, and adjust sales tactics to align with changing consumer behaviors and market conditions. 
 
-Seasonal Trends - Identified sales and profit trends that align with seasonal events and market cycles, providing valuable insights for strategic business planning. These findings help optimize inventory management, promotional campaigns, and resource allocation to maximize profitability during peak seasons and mitigate downturns during slower periods.
 
-Top performing Countries - The United States remains the top-performing region, followed by Ireland and the United Kingdom over a four-year period. To sustain sales in top regions, strategies like personalized promotions, loyalty programs, and supply chain optimization should be implemented. For underperforming regions (e.g., the UK), targeted marketing, customer engagement initiatives, and expanded distribution channels are key to driving sales growth.
+## Reports
+- **The analysis reveals that the United States leads in sales over the two-year period. To drive growth, stakeholders should allocate more resources to targeted marketing campaigns in underperforming regions. Additionally, retaining existing customers in the U.S. should be a priority to sustain and further increase sales.
 
-Sales Volatility - Conducted an in-depth analysis of monthly sales fluctuations to identify seasonal trends, demand patterns, and potential market shifts. These insights enable data-driven decision-making, allowing the business to optimize inventory management, refine marketing strategies, and adjust sales tactics to align with changing consumer behaviors and market conditions. 
+## Conclusion
+This project offers a comprehensive guide to advanced Excel techniques for data analysts in the retail sales industry. It covers data cleaning, exploratory data analysis with pivot tables, and visualizing insights through interactive dashboards. The objective is to help retail companies enhance sales performance and refine strategies based on monthly trends and data-driven analysis.
 
 **Dashboard Overview:** 
 
