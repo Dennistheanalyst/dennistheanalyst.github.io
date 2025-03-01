@@ -166,7 +166,7 @@ The heatmap visually represents wait times using deep blue for prolonged delays 
 
 
 ## Conclusion
-
+This project provides a comprehensive guide to advanced Excel techniques for data analysts in the healthcare industry. It covers data cleaning in Excel, exploratory data analysis using pivot tables, and presenting findings through interactive dashboards. The goal is to help healthcare facilities enhance patient satisfaction and ensure equitable treatment across diverse patient demographics.
 
 
 **Project Description:** This project examined hospital data to identify trends and patterns related to the daily patient stay durations in the emergency room over the course of a year, as visualized in a heat map. Furthermore, it analyzed the average patient satisfaction rates, as well as the distribution of patients based on age, gender, department referral, and race.
