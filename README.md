@@ -2,7 +2,7 @@
 
 # Project 1
 
-**Title:** [Sales Data Of Techsort Company Limited](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/retail_sales_data%20Excel.xlsx)
+**Title:** [Retail Sales Data](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/retail_sales_data%20Excel.xlsx)
 
 **Tools Used:** Microsoft Excel (Power Query for data cleaning, Coditional Formating, Pivot Tables, Slicers, use of slicers, Pivot Charts, Timeline, shapes, Shape format)
 
