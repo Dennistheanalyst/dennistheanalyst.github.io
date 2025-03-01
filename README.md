@@ -420,21 +420,248 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 
 # Project 2
 
-**Title:** Interrogating data on Pizza
+## Project Overview
 
-**SQL Code:** [SQL Querries on Pizza](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Pizza.sql)
+**Title:** Interrogating data on NETFLIX
+
+**Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes functions like COUNT and SUM to determine the total number of pizzas sold and ordered within a specific period. The SUM function is also applied to calculate the total revenue generated from pizza sales. Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter the data for specific products or product ranges as requested by the company.
+
+## Project Objectives
+
+- **Analyze the distribution of content types (movies vs TV shows).
+- **Identify the most common ratings for movies and TV shows.
+- **List and analyze content based on release years, countries, and durations.
+- **Explore and categorize content based on specific criteria and keywords.
+
+## Project Structure:
+
+### 2. Data Input and simple data Exploration
+
+```sql
+USE [Netflix_db]
+GO
+
+SELECT [show_id]
+      ,[type]
+      ,[title]
+      ,[director]
+      ,[cast]
+      ,[country]
+      ,[date_added]
+      ,[release_year]
+      ,[rating]
+      ,[duration]
+      ,[listed_in]
+      ,[description]
+  FROM [dbo].[netflix_titles$]
+
+GO
+
+
+SELECT 
+	COUNT(*) AS Total_Content
+FROM [dbo].[netflix_titles$];
+
+SELECT *
+FROM [dbo].[netflix_titles$];
+
+SELECT DISTINCT [type]
+FROM [dbo].[netflix_titles$];
+
+SELECT DISTINCT [director]
+FROM [dbo].[netflix_titles$];
+```
+
+
+### DATA ANALYSIS AND FINDINGS:
+
+**SQL Code:** 
+
+- **Count the number of movies VS TV series
+  
+```sql
+SELECT [type], 
+		COUNT(*) AS total_content
+FROM [dbo].[netflix_titles$]
+GROUP BY [type];
+```
+
+- **Find the most common rating for movies and TV series
+
+```sql
+SELECT [type],
+	[rating],
+	COUNT(*) AS No_ratings,
+	RANK() OVER(PARTITION BY [type] ORDER BY COUNT(*) DESC) AS Ranking
+FROM [dbo].[netflix_titles$]
+GROUP BY [type],[rating];
+```
+
+- **List all movies released in a specific year(eg, 2020)
+  
+```sql
+SELECT *
+FROM [dbo].[netflix_titles$]
+WHERE [type] = 'Movie' 
+AND
+[release_year] = 2020;
+```
+
+
+- **Find the top 5 countries with the most content on Netflix
+  
+```sql
+SELECT TOP 5 [country], 
+COUNT([show_id]) AS Total_content
+FROM [dbo].[netflix_titles$]
+CROSS APPLY string_split([country],',')
+GROUP BY [country] 
+ORDER BY COUNT([show_id]) DESC;
+```
+
+- **Identify the longest movie or TV show duration
+
+```sql
+SELECT *
+FROM [dbo].[netflix_titles$]
+WHERE [type] = 'Movie' AND 
+						[duration] = (SELECT MAX([duration] )
+						FROM [dbo].[netflix_titles$]);
+```
+
+- **Find content added in the last 5years
+
+```sql
+SELECT *
+FROM [dbo].[netflix_titles$]
+WHERE [date_added] >= DATEADD(YEAR,-5,GETDATE())
+
+SELECT DATEADD(YEAR,-5,GETDATE());
+```
+
+- **Find all the movies or TV shows by director 'A. L. Vijay'
+
+```sql
+SELECT *
+FROM[dbo].[netflix_titles$]
+WHERE [director] LIKE '%A. L. Vijay%';
+```
+
+- **List all TV show with more than 5 seasons
+
+```sql
+WITH CTE AS (SELECT *,
+ CAST(LEFT([duration],CHARINDEX(' ',[duration])-1) AS int) AS 'Season_Count'
+FROM [dbo].[netflix_titles$]
+WHERE [type] = 'TV Show' )
+SELECT *
+FROM CTE
+WHERE Season_Count > 5;
+```
+
+- **Count the number of content items in each genre
+
+```sql
+SELECT COUNT([show_id]) AS no_of_content,  TRIM(value) AS listed_in2
+FROM [dbo].[netflix_titles$]
+CROSS APPLY string_split([listed_in], ',')
+GROUP BY TRIM(value);
+```
+
+- **Find each year and the average number of content released by India on netflix. Return the top 5 year with the highest average content released
+
+```sql
+WITH CTE AS (SELECT DATEPART(YEAR, [date_added]) Year_1,COUNT([show_id]) AS no_of_content,[country]
+FROM [dbo].[netflix_titles$]
+WHERE [country] = 'India'
+GROUP BY DATEPART(YEAR, [date_added]),[country])
+
+SELECT TOP 5 
+	CTE.[country],
+	CTE.Year_1,
+	CTE.no_of_content,
+	ROUND(CAST(CTE.no_of_content AS FLOAT)/(SELECT COUNT([show_id]) FROM [dbo].[netflix_titles$] WHERE [country] = 'India' ),2) AS Current_ratio
+FROM CTE
+ORDER BY no_of_content DESC;
+```
+
+- **List all the movies that are documented
+
+```sql
+WITH CTE AS (SELECT *,TRIM(value) AS LISTED_IN2
+FROM [dbo].[netflix_titles$]
+CROSS APPLY string_split([listed_in],','))
+
+SELECT *
+FROM CTE
+WHERE [type] LIKE '%Movie%' AND LISTED_IN2 LIKE '%Documentaries%';
+```
+
+- **Find all content without a director
+
+```sql
+SELECT *
+FROM [dbo].[netflix_titles$]
+WHERE [director] IS NULL;
+```
+
+- **Find how many movies actor 'Salman Khan' appeared in last 10 years
+
+```sql
+SELECT [type], COUNT([cast])
+FROM [dbo].[netflix_titles$]
+WHERE [cast] LIKE '%Salman Khan%' AND [type] = 'Movie' AND [date_added] > DATEADD(YEAR,-10,GETDATE())
+GROUP BY [type];
+```
+
+- **Find the top 10 actors who have appeared in the highest number of movies produced in India.
+
+```sql
+WITH CTE AS (SELECT *,TRIM(VALUE) AS CAST2
+FROM [dbo].[netflix_titles$]
+CROSS APPLY string_split([cast], ',')
+WHERE [type] = 'Movie')
+
+SELECT TOP 10 CAST2, [type] , COUNT(CAST2)
+FROM CTE  
+GROUP BY CAST2,[type]
+ORDER BY COUNT(CAST2) DESC;
+```
+
+- **Categorise the content based on the present of the keywords 'kill' and 'violence' in the description field. Label content containing these keywords as 'Bad' and all other content as 'Good'. Count how many items fall into each category.
+
+```sql
+with cte as (SELECT *,
+CASE 
+	WHEN  [description] LIKE '%kill%' OR 
+	[description] LIKE '%violence%' THEN 'Bad Films' 
+	ELSE 'Good Films'  END AS 'Films'
+FROM [dbo].[netflix_titles$])
+
+SELECT Films, COUNT(*) AS no_films
+FROM cte
+GROUP BY Films;
+```
+
+### 3. Findings
+
+- **Content Distribution: The dataset contains a diverse range of movies and TV shows with varying ratings and genres.
+- **Common Ratings: Insights into the most common ratings provide an understanding of the content's target audience.
+- **Geographical Insights: The top countries and the average content releases by India highlight regional content distribution.
+- **Content Categorization: Categorizing content based on specific keywords helps in understanding the nature of content available on Netflix.
+
+## Conclusion
+
+This analysis provides a comprehensive view of Netflix's content and can help inform content strategy and decision-making.
+
 
 **SQL Skills Used:** 
 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
+- **Data Retrieval (SELECT): Queried and extracted specific information from the database.
+- **Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
+- **Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
+- **Data Source Specification (FROM): Specified the tables used as data sources for retrieval
 
-Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
-
-Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
-
-**Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes functions like COUNT and SUM to determine the total number of pizzas sold and ordered within a specific period. The SUM function is also applied to calculate the total revenue generated from pizza sales. Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter the data for specific products or product ranges as requested by the company.
 
 **Technology used:** SQL server
 
