@@ -173,16 +173,12 @@ Data Cleaning – Identify and handle missing or null values to ensure data accu
 Exploratory Data Analysis (EDA) – Conduct basic analysis to understand key patterns, trends, and relationships within the dataset.
 Business Insights & Analysis – Utilize SQL queries to address specific business questions, extract meaningful insights, and support data-driven decision-making.
 
-**Project Structure**
+**Project Structure:**
 
 Data Exploration & Cleaning
-
 Record Count: Determine the total number of records in the dataset.
-
 Customer Count: Find out how many unique customers are in the dataset.
-
-Category Count: Identify all unique product categories in the dataset.
-      
+Category Count: Identify all unique product categories in the dataset.     
 Null Value Check: Check for any null values in the dataset and delete records with missing data.
             
 
