@@ -67,7 +67,6 @@ Furthermore, the project explores the impact of loyalty cards in tracking custom
 - **Top 5 Performing Customers – Highlights the highest-spending customers in various regions and by coffee type, helping businesses understand their most valuable clients and tailor promotional efforts accordingly.
 - **Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
 - **Total Sales Over Time – Examines seasonal sales trends and time-based purchasing patterns, allowing businesses to develop short-term strategies to maximize revenue during peak seasons and improve performance during slow periods.
-- **This project serves as a data-driven decision-making tool, helping the coffee company refine its sales strategies, optimize marketing efforts, and improve overall business performance.
 
 ## Project Objectives
 1. **Data Cleaning - Identify and handle missing or null values to ensure data accuracy and reliability.
