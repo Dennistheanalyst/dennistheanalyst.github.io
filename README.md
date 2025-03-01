@@ -59,6 +59,7 @@ Additionally, the dashboard includes interactive slicers and timeline for:
 - **There is a strong need to focus on retaining existing customers in the leading countries rather than seeking new ones. This approach will help reduce costs while driving higher sales and fostering long-term customer loyalty.
 - **Sales in underperforming regions could increase by 10% with the implementation of strategies focused on enhancing customer service. Additionally, management should prioritize reducing operational costs in these regions to improve overall profitability and efficiency.
 - **The leading product favored across these four countries is Mountain Bikes. Given the data indicating a growing demand for this product, it is essential to ensure a consistent supply of Mountain Bikes in all these regions to meet customer needs and capitalize on the rising demand.
+- **The analysis highlights that May, June, and December are the peak periods when sales for all products are maximized. Therefore, it is crucial to make adequate preparations ahead of these peak periods to meet customer demand and fully capitalize on sales opportunities.
 
 
 ## Conclusion
