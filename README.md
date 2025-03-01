@@ -153,10 +153,16 @@ Utilization of pivot tables for data analysis and Identify KPIs
 
 
 ### 3. Findings
-
+- **Average Satisfaction score -
+- **Average wait time
+- **Patients wait Time - identifies the number of hours patients wait in the emergency room
+- **Patients Demographics - Identify the number of customers based on gender, race annad agae visiting the emergency room
 
 ## Reports
-
+- **The average time a customer waits in the emergency room is 35.26 within the 2year period. The average wait time increased from 35.03 to 35.47 between 2019 and 2020. Reason for the increase is due to the increase in the overall population of patients visiting emergency room.
+- **Over the two-year period, the heatmap reveals that patients experience wait times of up to 40 hours before receiving treatment. This highlights a critical issue that requires attention. To mitigate these extended wait times, deploying additional nurses and medical personnel is essential.
+The heatmap visually represents wait times using deep blue for prolonged delays and dark gray for shorter wait times. Addressing these peak-period bottlenecks should be a priority for stakeholders to enhance efficiency and improve patient satisfaction.
+- **The heatmap highlights monthly variations in patient wait times, providing valuable insights into fluctuations across different months. By analyzing these trends, stakeholders can identify peak periods and adjust strategies accordingly to minimize emergency room wait times. This proactive approach ensures better resource allocation, improving patient flow and overall healthcare efficiency.
 
 
 ## Conclusion
