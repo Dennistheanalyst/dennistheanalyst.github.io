@@ -169,31 +169,47 @@ This project showcases essential SQL skills and techniques commonly used by data
 
 **Project Objectives**
 
+
             Retail Sales Database Setup – Create and populate a structured retail sales database using the provided dataset.
+            
             Data Cleaning – Identify and handle missing or null values to ensure data accuracy and reliability.
+            
             Exploratory Data Analysis (EDA) – Conduct basic analysis to understand key patterns, trends, and relationships within the dataset.
+            
             Business Insights & Analysis – Utilize SQL queries to address specific business questions, extract meaningful insights, and support data-driven decision-making.
 
 **Project Structure**
 
+
 Data Exploration & Cleaning
 
             Record Count: Determine the total number of records in the dataset.
+            
             Customer Count: Find out how many unique customers are in the dataset.
+            
             Category Count: Identify all unique product categories in the dataset.
+            
             Null Value Check: Check for any null values in the dataset and delete records with missing data.
+            
 
 Data Analysis and Findings
 
+
             Customer Demographics – The dataset features customers from diverse age groups, with purchases spanning various categories like Clothing and Beauty.
+            
             High-Value Transactions – A significant number of transactions exceed $1,000, highlighting premium purchases.
+            
             Sales Trends – Monthly sales analysis reveals fluctuations in demand, helping pinpoint peak seasons.
+            
             Customer Insights – Identifies top-spending customers and the most popular product categories, providing valuable business intelligence.
 
 Reports
 
+
             Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
+            
             Trend Analysis: Insights into sales trends across different months and shifts.
+            
             Customer Insights: Reports on top customers and unique customer counts per category.
 
 
