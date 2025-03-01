@@ -318,6 +318,7 @@ ORDER BY [category];
 ```
 
 7. **Write a SQL query to calculate the average sale for each month. Find out best selling month in each year**:
+   
 ```sql
 WITH monthlysales AS 
 (
@@ -339,6 +340,7 @@ WHERE Rank = 1;
 ```
 
 8. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+   
 ```sql
 SELECT TOP 5 [customer_id], SUM([total_sale]) AS Total_sales
 	FROM [dbo].[Retail_sales]
