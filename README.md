@@ -192,6 +192,43 @@ This project provides a comprehensive guide to advanced Excel techniques for dat
 
 **Title:** Optimizing Retail Sales Insights: A SQL Data Analysis Project
 
+This project showcases essential SQL skills and techniques commonly used by data analysts to explore, clean, and analyze retail sales data. It involves creating a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to answer key business questions. Designed for beginners in data analysis, this project helps build a strong foundation in SQL while providing hands-on experience with real-world data.
+
+## Project Objectives
+1. **Retail Sales Database Setup – Create and populate a structured retail sales database using the provided dataset.
+2. **Data Cleaning – Identify and handle missing or null values to ensure data accuracy and reliability.
+3. **Exploratory Data Analysis (EDA) – Conduct basic analysis to understand key patterns, trends, and relationships within the dataset.
+4. **Business Insights & Analysis – Utilize SQL queries to address specific business questions, extract meaningful insights, and support data-driven decision-making.
+
+## Project Structure:
+
+### 2. Data Exploration & Cleaning
+
+- **Record Count**: Determine the total number of records in the dataset.
+- **Customer Count**: Find out how many unique customers are in the dataset.
+- **Category Count**: Identify all unique product categories in the dataset.
+- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
+
+```sql
+SELECT COUNT(*) FROM retail_sales;
+SELECT COUNT(DISTINCT customer_id) FROM retail_sales;
+SELECT DISTINCT category FROM retail_sales;
+
+SELECT * FROM retail_sales
+WHERE 
+    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
+    gender IS NULL OR age IS NULL OR category IS NULL OR 
+    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+
+DELETE FROM retail_sales
+WHERE 
+    sale_date IS NULL OR sale_time IS NULL OR customer_id IS NULL OR 
+    gender IS NULL OR age IS NULL OR category IS NULL OR 
+    quantity IS NULL OR price_per_unit IS NULL OR cogs IS NULL;
+```
+
+### DATA ANALYSIS AND FINDINGS:
+
 **SQL Code:** 
 
 1. **Write a SQL query to retrieve all columns for sales made on '2022-11-05**:
@@ -310,25 +347,6 @@ SELECT
 FROM hourly_sale
 GROUP BY shift
 ```
-
-
-This project showcases essential SQL skills and techniques commonly used by data analysts to explore, clean, and analyze retail sales data. It involves creating a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to answer key business questions. Designed for beginners in data analysis, this project helps build a strong foundation in SQL while providing hands-on experience with real-world data.
-
-## Project Objectives
-1. **Retail Sales Database Setup – Create and populate a structured retail sales database using the provided dataset.
-2. **Data Cleaning – Identify and handle missing or null values to ensure data accuracy and reliability.
-3. **Exploratory Data Analysis (EDA) – Conduct basic analysis to understand key patterns, trends, and relationships within the dataset.
-4. **Business Insights & Analysis – Utilize SQL queries to address specific business questions, extract meaningful insights, and support data-driven decision-making.
-
-## Project Structure:
-
-### 2. Data Exploration & Cleaning
-
-- **Record Count**: Determine the total number of records in the dataset.
-- **Customer Count**: Find out how many unique customers are in the dataset.
-- **Category Count**: Identify all unique product categories in the dataset.
-- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
-            
 
 ### 3. Findings
 
