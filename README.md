@@ -175,23 +175,26 @@ Business Insights & Analysis – Utilize SQL queries to address specific busines
 
 **Project Structure:**
 
-Data Exploration & Cleaning
-Record Count: Determine the total number of records in the dataset.
-Customer Count: Find out how many unique customers are in the dataset.
-Category Count: Identify all unique product categories in the dataset.     
-Null Value Check: Check for any null values in the dataset and delete records with missing data.
+### 2. Data Exploration & Cleaning
+
+- **Record Count**: Determine the total number of records in the dataset.
+- **Customer Count**: Find out how many unique customers are in the dataset.
+- **Category Count**: Identify all unique product categories in the dataset.
+- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
             
 
-Data Analysis and Findings
-      Customer Demographics – The dataset features customers from diverse age groups, with purchases spanning various categories like Clothing and Beauty.
-      High-Value Transactions – A significant number of transactions exceed $1,000, highlighting premium purchases.
-      Sales Trends – Monthly sales analysis reveals fluctuations in demand, helping pinpoint peak seasons.
-      Customer Insights – Identifies top-spending customers and the most popular product categories, providing valuable business intelligence.
+### 3. Findings
 
-Reports
-      Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
-      Trend Analysis: Insights into sales trends across different months and shifts.
-      Customer Insights: Reports on top customers and unique customer counts per category.
+- **Customer Demographics – The dataset features customers from diverse age groups, with purchases spanning various categories like Clothing and Beauty.
+- **High-Value Transactions – A significant number of transactions exceed $1,000, highlighting premium purchases.
+- **Sales Trends – Monthly sales analysis reveals fluctuations in demand, helping pinpoint peak seasons.
+- **Customer Insights – Identifies top-spending customers and the most popular product categories, providing valuable business intelligence.
+
+## Reports
+
+- **Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
+- **Trend Analysis: Insights into sales trends across different months and shifts.
+- **Customer Insights: Reports on top customers and unique customer counts per category.
 
 
 **SQL Skills Used:** 
@@ -203,7 +206,8 @@ Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, 
 
 Data Source Specification (FROM): Specified the tables used as data sources for retrieval
 
-**Conclusion:**
+## Conclusion
+
 This project offers a thorough introduction to SQL for aspiring data analysts, covering key areas such as database setup, data cleaning, exploratory data analysis (EDA), and business-focused SQL queries. The insights gained from this project provide valuable information on sales trends, customer behavior, and product performance, which can support informed business decision-making.
 
 **Technology Used:** SQL server
