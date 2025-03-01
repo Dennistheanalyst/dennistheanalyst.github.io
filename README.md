@@ -1,5 +1,7 @@
 # DATA ANALYTICS PORTFOLIO
 
+# EXCEL PROJECTS
+
 ## Project Overview
 
 # Project 1
@@ -128,47 +130,6 @@ This project offers a comprehensive guide to advanced Excel techniques for data 
 
 # Project 3
 
-**Title:** [Hospitality Industry Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospitality%20industry%20project.pbix)
-
-**Tools Used:** Power BI, Power Query, DAX functions, Charts, Shapes, Slicers.
-
-**Project Description:** This project analyzed data from the hospitality sector to uncover trends and patterns in sales performance, guest stay durations by month, and the most popular booking channels. Additionally, it examined the demographic profile of visitors, including the count of children and adults throughout the year. The analysis also explored the average rates of different room types and the average rates by week.
-It provides a detailed overview of essential performance metrics, enabling stakeholders to effectively track and assess the company’s performance across various metrics. The dashboard offers the following functionalities:
-
-Number of Adults: The total count of adults who stayed at the hotel over the course of the year.
-
-Number of Children: The total number of children who stayed at the hotel during the year.
-
-Total Revenue: The overall revenue earned throughout the year.
-
-Average Revenue: The yearly average revenue generated.
-
-Number of Adults per booking Channel: Number of adults that uses various booking channels to book the hotel.
-
-Number of Children Per Booking Channel: Number of Children that uses various booking channels to book the hotel.
-
-Average Room Rate by week: Average price of the room by week be it weekend or weekday.
-
-Average room rate by room type: The average rates of different room types offered at these hotels.
-
-Stay Duration by month: This considers the length of time hotel patrons stay throughout the year.
-
-Additionally, the dashboard includes interactive slicers and timeline for:
-
-Months:  Filter the data to view performance for a specific month or range of months.
-
-**Key findings:** Channel Optimization: Identifies key channels the company should prioritize to enhance customer service and improve performance across other booking channels.
-
-Seasonal Patterns: Analyzes the months when customers tend to stay longer at the hotels, enabling the company to optimize profitability and deliver exceptional customer service.
-
-Sales Volatility: Analyzed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly.
-
-**Dashboard Overview:** 
-![hospitality_industry_dashboard](hospitality_industry_dashboard.JPG)
-
-
-# Project 4
-
 ## Project Overview
 
 **Title:** [Emergency Room Visit Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospital%20Emergency%20Room%20Visit%20Data.xlsx)
@@ -228,7 +189,10 @@ This project provides a comprehensive guide to advanced Excel techniques for dat
 ![Hospital_ER_Visit_Dashboard](Hospital_ER_Visit_Dashboard.JPG)
 
 
-# Project 5
+
+# SQL PROJECTS
+
+# Project 1
 
 ## Project Overview
 
@@ -454,7 +418,7 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 **Technology Used:** SQL server
 
 
-# Project 6
+# Project 2
 
 **Title:** Interrogating data on Pizza
 
@@ -473,4 +437,49 @@ Data Source Specification (FROM): Specified the tables used as data sources for 
 **Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes functions like COUNT and SUM to determine the total number of pizzas sold and ordered within a specific period. The SUM function is also applied to calculate the total revenue generated from pizza sales. Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter the data for specific products or product ranges as requested by the company.
 
 **Technology used:** SQL server
+
+
+
+# POWER BI PROJECT
+
+# Project 1
+
+**Title:** [Hospitality Industry Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospitality%20industry%20project.pbix)
+
+**Tools Used:** Power BI, Power Query, DAX functions, Charts, Shapes, Slicers.
+
+**Project Description:** This project analyzed data from the hospitality sector to uncover trends and patterns in sales performance, guest stay durations by month, and the most popular booking channels. Additionally, it examined the demographic profile of visitors, including the count of children and adults throughout the year. The analysis also explored the average rates of different room types and the average rates by week.
+It provides a detailed overview of essential performance metrics, enabling stakeholders to effectively track and assess the company’s performance across various metrics. The dashboard offers the following functionalities:
+
+Number of Adults: The total count of adults who stayed at the hotel over the course of the year.
+
+Number of Children: The total number of children who stayed at the hotel during the year.
+
+Total Revenue: The overall revenue earned throughout the year.
+
+Average Revenue: The yearly average revenue generated.
+
+Number of Adults per booking Channel: Number of adults that uses various booking channels to book the hotel.
+
+Number of Children Per Booking Channel: Number of Children that uses various booking channels to book the hotel.
+
+Average Room Rate by week: Average price of the room by week be it weekend or weekday.
+
+Average room rate by room type: The average rates of different room types offered at these hotels.
+
+Stay Duration by month: This considers the length of time hotel patrons stay throughout the year.
+
+Additionally, the dashboard includes interactive slicers and timeline for:
+
+Months:  Filter the data to view performance for a specific month or range of months.
+
+**Key findings:** Channel Optimization: Identifies key channels the company should prioritize to enhance customer service and improve performance across other booking channels.
+
+Seasonal Patterns: Analyzes the months when customers tend to stay longer at the hotels, enabling the company to optimize profitability and deliver exceptional customer service.
+
+Sales Volatility: Analyzed monthly sales fluctuations to understand market dynamics and adjust business strategies accordingly.
+
+**Dashboard Overview:** 
+![hospitality_industry_dashboard](hospitality_industry_dashboard.JPG)
+
 
