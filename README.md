@@ -650,10 +650,6 @@ GROUP BY Films;
 - **Geographical Insights: The leading countries and India's average content releases provide insights into regional content distribution.
 - **Content Categorization: Organizing content by specific keywords provides insights into the types of content available on Netflix.
 
-## Conclusion
-
-This analysis offers valuable insights into Netflix's content, helping to guide strategic decisions and content planning.
-
 
 **SQL Skills Used:** 
 
@@ -661,6 +657,11 @@ This analysis offers valuable insights into Netflix's content, helping to guide 
 - **Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
 - **Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
 - **Data Source Specification (FROM): Specified the tables used as data sources for retrieval
+
+
+## Conclusion
+
+This analysis offers valuable insights into Netflix's content, helping to guide strategic decisions and content planning.
 
 
 **Technology used:** SQL server
