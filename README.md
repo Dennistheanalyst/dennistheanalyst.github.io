@@ -4,9 +4,9 @@
 
 # EXCEL PROJECTS
 
-## Project Overview
+## Project 1
 
-# Project 1
+**Project Overview**
 
 **Title:** [Retail Sales Data](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/retail_sales_data%20Excel.xlsx)
 
@@ -73,7 +73,7 @@ This project offers a comprehensive guide to advanced Excel techniques for data 
 **Dashboard Overview:** 
 ![Sales_Dashboard](Retail_Sales_Dashboard.JPG)
 
-# Project 2
+## Project 2
 
 ## Project Overview
 
@@ -131,7 +131,7 @@ This project offers a comprehensive guide to advanced Excel techniques for data 
 ![CoffeeSales Dashboard](coffeeOrdersDashboard.JPG)
 
 
-# Project 3
+## Project 3
 
 ## Project Overview
 
@@ -196,9 +196,9 @@ This project provides a comprehensive guide to advanced Excel techniques for dat
 
 # SQL PROJECTS
 
-# Project 1
+## Project 1
 
-## Project Overview
+**Project Overview**
 
 [reatail_sales_sql_dataset](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Retail_sales_sql_Dataset.xlsx)
 
@@ -414,7 +414,7 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 **Technology Used:** SQL server
 
 
-# Project 2
+## Project 2
 
 ## Project Overview
 
@@ -657,7 +657,7 @@ This analysis offers valuable insights into Netflix's content, helping to guide 
 **Technology used:** SQL server
 
 
-# Project 3
+## Project 3
 
 [JOINS](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/JOINS.xlsx)
 
@@ -741,7 +741,7 @@ Based on managements request I was able to fetch these information for their con
 
 # POWER BI PROJECT
 
-# Project 1
+## Project 1
 
 **Title:** [Hospitality Industry Dashboard](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Hospitality%20industry%20project.pbix)
 
