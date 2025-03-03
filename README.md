@@ -422,6 +422,8 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 
 ## Project Overview
 
+[Netflix_Dataset](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Netflix%20Dataset.xlsx)
+
 **Title:** Interrogating data on NETFLIX
 
 **Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes functions like COUNT and SUM to determine the total number of pizzas sold and ordered within a specific period. The SUM function is also applied to calculate the total revenue generated from pizza sales. Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter the data for specific products or product ranges as requested by the company.
