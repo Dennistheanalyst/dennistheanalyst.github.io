@@ -196,6 +196,8 @@ This project provides a comprehensive guide to advanced Excel techniques for dat
 
 ## Project Overview
 
+[reatail_sales_sql_dataset](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/Retail_sales_sql_Dataset.xlsx)
+
 **Title:** Optimizing Retail Sales Insights: A SQL Data Analysis Project
 
 This project showcases essential SQL skills and techniques commonly used by data analysts to explore, clean, and analyze retail sales data. It involves creating a retail sales database, conducting exploratory data analysis (EDA), and using SQL queries to answer key business questions. Designed for beginners in data analysis, this project helps build a strong foundation in SQL while providing hands-on experience with real-world data.
