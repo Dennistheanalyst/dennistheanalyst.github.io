@@ -687,7 +687,7 @@ SET [Grade] = 100
 WHERE [Grade] IS NULL;
 ```
 
-### DATA ANALYSIS AND FINDINGS:
+### DATA ANALYSIS:
 
 **SQL Code:** 
 
