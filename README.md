@@ -1,4 +1,6 @@
-# DATA ANALYTICS PORTFOLIO
+# DATA ANALYTICS PORTFOLIO 
+
+**Thank you for taking the time to review my portfolio. These projects showcase my analytical skills across Excel, SQL, and Power BI, demonstrating my ability to extract insights and drive data-driven decisions.**
 
 # EXCEL PROJECTS
 
