@@ -403,16 +403,6 @@ GROUP BY Shift;
 - **Trend Analysis: Insights into sales trends across different months and shifts.
 - **Customer Insights: Reports on top customers and unique customer counts per category.
 
-
-**SQL Skills Used:** 
-Data Retrieval (SELECT): Queried and extracted specific information from the database.
-
-Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
-
-Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
-
-Data Source Specification (FROM): Specified the tables used as data sources for retrieval
-
 ## Conclusion
 
 This project offers a thorough introduction to SQL for aspiring data analysts, covering key areas such as database setup, data cleaning, exploratory data analysis (EDA), and business-focused SQL queries. The insights gained from this project provide valuable information on sales trends, customer behavior, and product performance, which can support informed business decision-making.
@@ -439,7 +429,7 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 
 ## Project Structure:
 
-### 2. Data Input and simple data Exploration
+### Data Input and simple data Exploration
 
 ```sql
 USE [Netflix_db]
@@ -647,20 +637,12 @@ FROM cte
 GROUP BY Films;
 ```
 
-### 3. Findings
+### Findings
 
 - **Content Distribution: The dataset features a wide selection of movies and TV shows spanning different genres and ratings.
 - **Common Ratings: Analyzing the most common ratings offers valuable insights into the target audience for Netflix's content.
 - **Geographical Insights: The leading countries and India's average content releases provide insights into regional content distribution.
 - **Content Categorization: Organizing content by specific keywords provides insights into the types of content available on Netflix.
-
-
-**SQL Skills Used:** 
-
-- **Data Retrieval (SELECT): Queried and extracted specific information from the database.
-- **Data Aggregation (SUM, COUNT): Performed calculations like totals for sales and quantities and counted records to identify data trends.
-- **Data Filtering (WHERE, BETWEEN, IN, AND): Uses filters to select relevant data, such as specifying conditions, ranges, or lists.
-- **Data Source Specification (FROM): Specified the tables used as data sources for retrieval
 
 
 ## Conclusion
@@ -670,6 +652,84 @@ This analysis offers valuable insights into Netflix's content, helping to guide 
 
 **Technology used:** SQL server
 
+
+# Project 3
+**Title:** Interrogating data(JOINS)
+
+**Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes the JOIN statement to combine multiple tables to provide report for management based on companys request. 
+Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter the data that are specifically requested by the company.
+
+## Project Objectives
+
+- **Extract specific customer and salesperson details based on location.
+- **Retrieve information by joining multiple tables like salesman, customer, and orders.
+- **Retrieve information by joining multiple tables (salesman, customer, orders)
+- **Generate reports on orders, salespersons, and commissions.
+- **Generate Cartesian products to analyze all possible salesperson-customer pairings.
+
+
+## Project Structure:
+
+###  Data Cleaning
+- **Removing Null Vallues
+- **Replacinin a null value with a figure(100)
+
+```sql
+SELECT *
+FROM [dbo].[Orders]
+WHERE [Order Number] IS NULL;
+
+DELETE [dbo].[Orders]
+WHERE [Order Number] IS NULL;
+
+UPDATE [dbo].[Customers]
+SET [Grade] = 100
+WHERE [Grade] IS NULL;
+```
+
+### DATA ANALYSIS AND FINDINGS:
+
+**SQL Code:** 
+
+- **write a SQL query to find those orders where the order amount exists between 500 and 2000. Return ord_no, purch_amt, cust_name, city.
+```sql
+  SELECT O.[Order Number],O.[Purchase_Amount],C.[Customer_Name],[City]
+FROM [dbo].[Orders] O
+JOIN [dbo].[Customers] C
+	ON O.[Customer ID] = C.[Customer_ID]
+WHERE [Purchase_Amount] BETWEEN 500 AND 2000
+```
+- **Write a SQL statement to join the tables salesman, customer and orders so that the same column of each table appears once and only the relational rows are returned. 
+```sql
+SELECT *
+FROM [dbo].[Salesmans] S
+JOIN [dbo].[Customers] C
+	ON S.[Salesman_id] = C.[Salesman_ID]
+JOIN [dbo].[Orders] O
+	ON O.[Salesman_id] = S.[Salesman_id]
+```
+- **Write a SQL statement to generate a report with the customer name, city, order no. order date, purchase amount for only those customers on the list who must have a grade and placed one or more orders or which order(s) have been placed by the customer who neither is on the list nor has a grade.
+```sql
+SELECT C.[Customer_Name],C.[City],O.[Order Number],O.[Order Date],O.[Purchase_Amount]
+ FROM [dbo].[Customers] C
+ LEFT JOIN [dbo].[Orders] O
+	ON C.[Customer_ID] = O.[Customer ID]
+	WHERE ([Customer_ID] IS NOT NULL
+	AND [Grade] IS NOT NULL)
+	OR (C.[Customer_ID] IS NOT NULL
+	OR C.[Grade] IS NOT NULL)
+```
+- **Write a SQL statement to create a Cartesian product between salesperson and customer, i.e. each salesperson will appear for every customer and vice versa for those salesmen who belong to a city and customers who require a grade.
+```sql
+SELECT *
+FROM [dbo].[Salesmans] S
+JOIN [dbo].[Customers] C
+ON S.[city] = C.[City]
+WHERE C.[Grade] IS NOT NULL;
+```
+
+## Conclusion 
+Based on managements request I was able to fetch these information for their consumption using JOINS.
 
 
 # POWER BI PROJECT
