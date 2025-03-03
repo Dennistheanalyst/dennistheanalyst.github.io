@@ -178,10 +178,10 @@ Utilize  pivot tables for data analysis and Identify KPIs
 - **Patients Demographics** - Identify the number of customers based on gender, race annad agae visiting the emergency room
 
 ## Reports
-- **The average time a customer waits in the emergency room is 35.26 within the 2year period. The average wait time increased from 35.03 to 35.47 between 2019 and 2020. Reason for the increase is due to the increase in the overall population of patients visiting emergency room.
-- **Over the two-year period, the heatmap reveals that patients experience wait times of up to 40 hours before receiving treatment. This highlights a critical issue that requires attention. To mitigate these extended wait times, deploying additional nurses and medical personnel is essential.
+- The average time a customer waits in the emergency room is 35.26 within the 2year period. The average wait time increased from 35.03 to 35.47 between 2019 and 2020. Reason for the increase is due to the increase in the overall population of patients visiting emergency room.
+- Over the two-year period, the heatmap reveals that patients experience wait times of up to 40 hours before receiving treatment. This highlights a critical issue that requires attention. To mitigate these extended wait times, deploying additional nurses and medical personnel is essential.
 The heatmap visually represents wait times using deep blue for prolonged delays and dark gray for shorter wait times. Addressing these peak-period bottlenecks should be a priority for stakeholders to enhance efficiency and improve patient satisfaction.
-- **The heatmap highlights monthly variations in patient wait times, providing valuable insights into fluctuations across different months. By analyzing these trends, stakeholders can identify peak periods and adjust strategies accordingly to minimize emergency room wait times. This proactive approach ensures better resource allocation, improving patient flow and overall healthcare efficiency.
+- The heatmap highlights monthly variations in patient wait times, providing valuable insights into fluctuations across different months. By analyzing these trends, stakeholders can identify peak periods and adjust strategies accordingly to minimize emergency room wait times. This proactive approach ensures better resource allocation, improving patient flow and overall healthcare efficiency.
 
 
 ## Conclusion
@@ -424,10 +424,10 @@ This project offers a thorough introduction to SQL for aspiring data analysts, c
 
 ## Project Objectives
 
-- **Analyze the distribution of content types (movies vs TV shows).**
-- **Identify the most common ratings for movies and TV shows.**
-- **List and analyze content based on release years, countries, and durations.**
-- **Explore and categorize content based on specific criteria and keywords.**
+- Analyze the distribution of content types (movies vs TV shows).
+- Identify the most common ratings for movies and TV shows.
+- List and analyze content based on release years, countries, and durations.
+- Explore and categorize content based on specific criteria and keywords.
 
 ## Project Structure:
 
@@ -666,18 +666,18 @@ Additionally, clauses such as WHERE, BETWEEN, IN, and WHEN are used to filter th
 
 ## Project Objectives
 
-- **Extract specific customer and salesperson details based on location.**
-- **Retrieve information by joining multiple tables like salesman, customer, and orders.**
-- **Retrieve information by joining multiple tables (salesman, customer, orders)**
-- **Generate reports on orders, salespersons, and commissions.**
-- **Generate Cartesian products to analyze all possible salesperson-customer pairings.**
+- Extract specific customer and salesperson details based on location.
+- Retrieve information by joining multiple tables like salesman, customer, and orders.
+- Retrieve information by joining multiple tables (salesman, customer, orders)
+- Generate reports on orders, salespersons, and commissions.
+- Generate Cartesian products to analyze all possible salesperson-customer pairings.
 
 
 ## Project Structure:
 
 ###  Data Cleaning
-- **Removing Null Vallues**
-- **Replacinin a null value with a figure(100)**
+- Removing Null Vallues
+- Replacinin a null value with a figure(100)
 
 ```sql
 SELECT *
