@@ -82,9 +82,10 @@ This project offers a comprehensive guide to advanced Excel techniques for data 
 **Project Description:** This project provides an in-depth analysis of coffee sales data from a coffee company, offering valuable insights into sales performance, customer behavior, and regional market trends. The analysis focuses on identifying patterns in sales fluctuations over a given year, highlighting periods of growth and decline. Additionally, it examines regional sales distribution to determine which areas contribute the most to overall revenue.
 A key aspect of this analysis is the identification of the top 5 customers who make the highest purchases, allowing for a better understanding of customer preferences and spending habits. This insight enables the company to optimize its marketing strategies and improve customer engagement.
 Furthermore, the project explores the impact of loyalty cards in tracking customer behavior across different regions within a specific timeframe. The use of loyalty cards provides several business advantages, including:
-      - **Enhancing customer retention through personalized rewards and incentives.**
-      - **Boosting sales and revenue by encouraging repeat purchases.**
-      - **Improving customer experience and satisfaction through tailored promotions and exclusive offers.**
+
+- Enhancing customer retention through personalized rewards and incentives.
+- Boosting sales and revenue by encouraging repeat purchases.
+- Improving customer experience and satisfaction through tailored promotions and exclusive offers.
 
 **Dashboard Functionalities:**
 - **Sales by Region** – Analyzes total sales across different regions, identifying the top-performing locations and suggesting strategies to enhance sales in underperforming areas.
