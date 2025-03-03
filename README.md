@@ -653,6 +653,9 @@ This analysis offers valuable insights into Netflix's content, helping to guide 
 
 
 # Project 3
+
+[JOINS](https://github.com/Dennistheanalyst/dennistheanalyst.github.io/blob/main/JOINS.xlsx)
+
 **Title:** Interrogating data(JOINS)
 
 **Project Description:** This project analyzes company data to extract key information based on management's requests. It utilizes the JOIN statement to combine multiple tables to provide report for management based on companys request. 
