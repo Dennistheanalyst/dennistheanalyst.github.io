@@ -108,7 +108,7 @@ Furthermore, the project explores the impact of loyalty cards in tracking custom
 - **Convert Data into Tables for Easy Analysis**
 
 ## Data Analysis
-- **Utilization of pivot tables for data analysis and Identify KPIs 
+- Utilize of pivot tables for data analysis and Identify KPIs 
 
 
 ### 3. Findings
@@ -143,9 +143,11 @@ It gives a clear overview of key performance metrics, helping management monitor
 - **Average Satisfaction Score:** This shows how satisfied patients feel after visiting the emergency room.
 - **Department Referrals:** The number of patients visiting a particular deopartment within a time period.
 - **Patients' Race:** The distribution of emergency room visits categorized by patients' race.
-- **The distribution of emergency room visit categorised by age.**
-- **The distribution of Emergency room visit categorised by gender.**
-- **Additionally, the dashboard includes interactive slicers and timeline for:** Months/Days/Years: Apply filters to view the average wait time, the number of patients visiting the emergency room, and the average satisfaction score for a specific month, day, or year.
+- **Distribution of emergency room visit categorised by age.**
+- **Distribution of Emergency room visit categorised by gender.**
+  
+Additionally, the dashboard includes interactive slicers and timeline for:
+- **Months/Days/Years:** Apply filters to view the average wait time, the number of patients visiting the emergency room, and the average satisfaction score for a specific month, day, or year.
 
 **Tools Used:** Microsoft Excel (Power Query for data cleaning, Coditional Formating, Pivot Tables, Slicers, Pivot Charts, Timeline, shapes, Shape format)
 
